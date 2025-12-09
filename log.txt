@@ -1,0 +1,194 @@
+============================================================
+SINGLE FISH IMAGE COUNT
+============================================================
+
+BOAL:
+  Total: 1031
+  Single fish: 885 (85.8%)
+  Multiple fish: 146
+
+ILISH:
+  Total: 807
+  Single fish: 789 (97.8%)
+  Multiple fish: 18
+
+KALIBAUSH:
+  Total: 557
+  Single fish: 525 (94.3%)
+  Multiple fish: 32
+
+KATLA:
+  Total: 1137
+  Single fish: 1133 (99.6%)
+  Multiple fish: 4
+
+KOI:
+  Total: 639
+  Single fish: 592 (92.6%)
+  Multiple fish: 47
+
+MRIGEL:
+  Total: 1304
+  Single fish: 1293 (99.2%)
+  Multiple fish: 11
+
+PABDA:
+  Total: 961
+  Single fish: 862 (89.7%)
+  Multiple fish: 99
+
+RUI:
+  Total: 1797
+  Single fish: 1670 (92.9%)
+  Multiple fish: 127
+
+TELAPIA:
+  Total: 1441
+  Single fish: 1326 (92.0%)
+  Multiple fish: 115
+
+============================================================
+OVERALL SUMMARY
+============================================================
+Total images: 9674
+Single fish: 9075 (93.8%)
+Multiple fish: 599 (6.2%)
+
+
+
+
+
+
+
+
+========================================================================
+========================================================================
+========================================================================
+========================================================================
+========================================================================
+========================================================================
+
+
+
+
+
+
+⚠️  WARNING: This will MOVE files from the original dataset!
+Make sure you have a backup before proceeding.
+
+Do you want to proceed? (yes/no): yes
+
+Starting separation...
+
+============================================================
+SEPARATING SINGLE AND MULTIPLE FISH IMAGES
+============================================================
+
+Processing rui...
+  ✅ Single fish (kept): 1670
+  📦 Multiple fish (moved): 127
+
+Processing mrigel...
+  ✅ Single fish (kept): 1293
+  📦 Multiple fish (moved): 11
+
+Processing kalibaush...
+  ✅ Single fish (kept): 525
+  📦 Multiple fish (moved): 32
+
+Processing pabda...
+  ✅ Single fish (kept): 862
+  📦 Multiple fish (moved): 99
+
+Processing telapia...
+  ✅ Single fish (kept): 1326
+  📦 Multiple fish (moved): 115
+
+Processing koi...
+  ✅ Single fish (kept): 592
+  📦 Multiple fish (moved): 47
+
+Processing boal...
+  ✅ Single fish (kept): 885
+  📦 Multiple fish (moved): 146
+
+Processing ilish...
+  ✅ Single fish (kept): 789
+  📦 Multiple fish (moved): 18
+
+Processing katla...
+  ✅ Single fish (kept): 1133
+  📦 Multiple fish (moved): 4
+
+============================================================
+SEPARATION SUMMARY
+============================================================
+
+📊 PER-CATEGORY BREAKDOWN:
+------------------------------------------------------------
+
+BOAL:
+  Remained (single): 885
+  Moved (multiple): 146
+  Total: 1031
+
+ILISH:
+  Remained (single): 789
+  Moved (multiple): 18
+  Total: 807
+
+KALIBAUSH:
+  Remained (single): 525
+  Moved (multiple): 32
+  Total: 557
+
+KATLA:
+  Remained (single): 1133
+  Moved (multiple): 4
+  Total: 1137
+
+KOI:
+  Remained (single): 592
+  Moved (multiple): 47
+  Total: 639
+
+MRIGEL:
+  Remained (single): 1293
+  Moved (multiple): 11
+  Total: 1304
+
+PABDA:
+  Remained (single): 862
+  Moved (multiple): 99
+  Total: 961
+
+RUI:
+  Remained (single): 1670
+  Moved (multiple): 127
+  Total: 1797
+
+TELAPIA:
+  Remained (single): 1326
+  Moved (multiple): 115
+  Total: 1441
+
+============================================================
+OVERALL TOTALS
+============================================================
+
+✅ Single fish (remained in original): 9075
+📦 Multiple fish (moved to separate folder): 599
+📈 Total images: 9674
+
+📂 Multiple fish moved to: /home/shadman/BR/f_sam_mask/multiple_sylbdfish
+📂 Single fish remain in: original dataset
+
+📊 Single fish percentage: 93.8%
+📊 Multiple fish percentage: 6.2%
+
+✅ Done!
+
+📁 Structure:
+   Original dataset: Only single fish images
+   multiple_sylbdfish/: Multiple fish images
+(fishenv) shadman@edith:~/BR/f_sam_mask$ 
